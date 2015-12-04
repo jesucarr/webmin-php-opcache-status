@@ -1,0 +1,2 @@
+index_title=PHP OPcache Status
+config_missing=Visit the module configuration page to set the URL for the php-opcache-status.php file. You can find how to set this up in the <a href="https://github.com/jesucarr/webmin-php-opcache-status" target="_blank">module README</a>.

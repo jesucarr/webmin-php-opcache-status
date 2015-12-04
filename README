@@ -1,0 +1,10 @@
+Webmin Module PHP OPcache Status
+--------------------------------
+
+This Webmin module creates a page that checks the PHP Zend Opcache status, using the [Opcache Status PHP Script](https://github.com/rlerdorf/opcache-status).
+
+###Installation
+
+1. Copy the php-opcache-status.php file provided and place it somewhere in the HTTP server using the PHP that you want to check the OPcache for. You can restrict access to only the Webmin IP. 
+2. Install the module and allow access in Webmin > Webmin Users. The module will show at Others > PHP OPcache Status.
+3. In the module settings enter the URL for the php-opcache-status.php file.
